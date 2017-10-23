@@ -1,15 +1,23 @@
+import java.util.Scanner;
+
 // a simple program to practice common Github commands 
 
 public class hello {
 
-    public static void main(String [] args) {
+	public static void main(String [] args) {
 
-
+		
+    
 	
-	// added  line	
-	// added another line
-
-        System.out.println("Hello Class!");
+	Scanner user = new Scanner(System.in); 
+	
+	String name;
+	
+	System.out.println("Enter your name: ");
+	
+	name = user.next();
+	
+	System.out.println("Hello there " + name);
 
 
 
